@@ -1,0 +1,15 @@
+FQDN = localhost
+
+ORGNAME = Demo Org.
+
+[ req ]
+default_bits = 2048
+default_md = sha256
+prompt = no
+encrypt_key = no
+distinguished_name = dn
+
+[ dn ]
+C = UK
+O = $ORGNAME
+CN = $FQDN
